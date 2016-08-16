@@ -7,5 +7,13 @@
   <body>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
+    
+<!--   la formular trebuie sa pun action -->
+ <%  if(user){ %>
+     <form method="POST" action="/signout"> 
+<button type="sumbit">Log out</button>
+    </form>
+      <% } %>
+  
   </body>
 </html>
