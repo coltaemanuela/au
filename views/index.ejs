@@ -10,6 +10,7 @@
     
 <!--   la formular trebuie sa pun action -->
  <%  if(user){ %>
+ 	<h1>Hello <%= user.email %>!</h1>
      <form method="POST" action="/signout"> 
 <button type="sumbit">Log out</button>
     </form>

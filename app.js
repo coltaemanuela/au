@@ -12,7 +12,7 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 
 var app = express();
-var urlDB= 'mongodb://localhost/authentication';
+var urlDB= 'mongodb://127.0.0.1:27017/authentication';
 mongoose.connect(urlDB);
 
 
